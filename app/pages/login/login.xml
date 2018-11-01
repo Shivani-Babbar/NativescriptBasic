@@ -1,0 +1,21 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loginLoaded">
+     <Page.actionBar>
+        <ActionBar >
+            <Label text="LOGIN" class="alignText font-weight-bold"/>
+        </ActionBar>
+    </Page.actionBar>
+    <!-- <StackLayout>
+        <Button text="GET" tap="{{getRequest}}" />
+        <Button text="POST" tap="{{postRequest}}" />
+    </StackLayout> -->
+    <StackLayout>
+        <TextField hint="Username" text='{{username}}' maxLength="20" class="input input-border"/>
+        <TextField hint="Password" text='{{password}}' maxLength="10" class="input input-border"/>
+        <Button text="LOGIN" tap="{{loginUser}}" />
+        
+        <StackLayout tap="{{register}}">
+		    <Label text="Maybe navigation?"></Label>
+	    </StackLayout>
+    </StackLayout>
+
+</Page>

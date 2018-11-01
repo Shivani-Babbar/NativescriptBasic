@@ -1,0 +1,1 @@
+/Users/shivani/Documents/nativeScript/DemoAppTypescript/platforms/android/app/src/main/assets/app

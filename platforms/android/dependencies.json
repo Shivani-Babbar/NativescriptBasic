@@ -1,0 +1,26 @@
+[
+    {
+        "name": "nativescript-localstorage",
+        "directory": "../../node_modules/nativescript-localstorage"
+    },
+    {
+        "name": "nativescript-theme-core",
+        "directory": "../../node_modules/nativescript-theme-core"
+    },
+    {
+        "name": "nativescript-toast",
+        "directory": "../../node_modules/nativescript-toast"
+    },
+    {
+        "name": "nativescript-toasts",
+        "directory": "../../node_modules/nativescript-toasts"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "../../node_modules/tns-core-modules"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "../../node_modules/tns-core-modules-widgets"
+    }
+]

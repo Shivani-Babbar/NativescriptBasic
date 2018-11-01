@@ -1,0 +1,13 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="registerLoaded">
+      <Page.actionBar>
+        <ActionBar >
+            <Label text="REGISTER" class="alignText font-weight-bold"/>
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout>
+        <TextField hint="Username" text='{{registerUsername}}' maxLength="20" class="input input-border"/>
+        <TextField hint="Password" text='{{resgisterPassword}}' maxLength="10" class="input input-border"/>
+        <Button text="REGISTER" tap="{{registerUser}}" />
+    </StackLayout>
+
+</Page>

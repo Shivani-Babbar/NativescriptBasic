@@ -1,0 +1,8 @@
+{
+    "nativescript-localstorage": true,
+    "nativescript-theme-core": true,
+    "nativescript-toast": true,
+    "nativescript-toasts": true,
+    "tns-core-modules": true,
+    "tns-core-modules-widgets": true
+}

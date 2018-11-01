@@ -1,0 +1,14 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="listingLoaded">
+<Page.actionBar>
+        <ActionBar >
+            <Label text="LANGUAGES" class="alignText font-weight-bold"/>
+        </ActionBar>
+    </Page.actionBar>
+
+    <ListView [items]="allLanguages" class="list-group">
+        <ListView.items>
+            <Label text="language">
+        </ListView.items>
+    </ListView>
+
+</Page>

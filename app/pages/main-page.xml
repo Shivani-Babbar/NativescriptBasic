@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="pageLoaded" class="page alignText">
+    <Page.actionBar>
+        <ActionBar >
+            <Label text="WELCOME" class="alignText font-weight-bold"/>
+        </ActionBar>
+    </Page.actionBar>
+    <FlexboxLayout flexDirection="row" justifyContent="center" alignItems="center">
+        <Button text="LOGIN" tap="{{ navigateToLogin }}" class="btn btn-primary btn-active roundButton view"/>
+        <Button text="REGISTER" tap="{{ navigateToRegister }}" class="btn btn-primary btn-active roundButton view"/>
+    </FlexboxLayout>
+</Page>
